@@ -314,3 +314,32 @@ html, body {
   text-decoration: none;
   cursor: pointer;
 }
+
+.avatar-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.client-avatar {
+  display: flex;
+  justify-content: center;
+}
+
+#client-carousel {
+  background-color: #f8f9fa;
+  background-size: auto;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #117a8b;
+  border-color: #007bff;
+}
+
+a {
+  color: #131414;
+  text-decoration: none;
+  background-color: transparent;
+}
